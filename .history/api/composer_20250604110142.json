@@ -1,0 +1,15 @@
+{
+    "name": "sebih/api",
+    "autoload": {
+        "psr-4": {
+            "SebihApi\\": "App/"
+        }
+    },
+    "authors": [
+        {
+            "name": "karim-sebih",
+            "email": "karim.sebih@laplateforme.io"
+        }
+    ],
+    "require": {}
+}
