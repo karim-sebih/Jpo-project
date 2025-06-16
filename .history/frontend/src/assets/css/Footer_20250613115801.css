@@ -1,0 +1,82 @@
+/* Styling the footer container */
+.footer {
+    background-color: white;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+    padding: 24px 16px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Centering and constraining the footer content */
+.footer-container {
+    
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+/* Styling the footer links */
+.footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    gap: 24px;
+}
+
+/* Styling individual footer links */
+.footer-links li {
+    display: block;
+}
+
+.footer-links li a {
+    color: #4b5563;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 0.95rem;
+}
+
+/* Hover effect for footer links */
+.footer-links li a:hover {
+    color: #0084FA;
+}
+
+/* Active link styling */
+.footer-links li a.active {
+    color: #0867bb;
+    font-weight: 600;
+}
+
+/* Styling the copyright section */
+.footer-copyright {
+    text-align: center;
+    color: #4b5563;
+    font-size: 0.85rem;
+}
+
+/* Responsive design for larger screens */
+@media (min-width: 768px) {
+    .footer-container {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .footer-copyright {
+        text-align: right;
+    }
+}
+
+/* Optional logo styling (uncomment if using logo in JSX) */
+/*
+.footer-logo .logo {
+    height: 40px;
+    width: auto;
+}
+
+.footer-logo .logo:hover {
+    filter: drop-shadow(0 0 2em #646cffaa);

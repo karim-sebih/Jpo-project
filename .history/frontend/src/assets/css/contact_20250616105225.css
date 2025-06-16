@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    overflow-x: hidden;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+.formulaire{
+    background-color: white;
+    margin-bottom: 10px;
+    width: 100%;
+    text-align: center;
+    color: #023FB3;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding:30px 200px;
+}
+
+.mi

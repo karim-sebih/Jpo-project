@@ -1,0 +1,26 @@
+.navbar {
+    background-color: #222;
+    padding: 1rem;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+}
+
+a[]
+
+.navbar a {
+    color: #00bfff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar a:hover,
+.navbar a.active {
+    text-decoration: underline;
+    color: #ffffff;
+}

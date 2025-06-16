@@ -1,0 +1,77 @@
+/* Styling the navigation container */
+.nav-links {
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 50;
+    padding: 12px 16px;
+;
+}
+
+/* Centering and constraining the nav content with flexbox */
+.nav-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+}
+
+/* Styling the logo section */
+.logo-section {
+    display: flex;
+    align-items: center;
+}
+
+/* Styling the logo image */
+.logo {
+    height: 50px; /* Adjust based on your logo size */
+    width: auto;
+    margin-right: 16px; /* Space between logo and nav links */
+}
+
+.logo:hover {
+    filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+/* Styling the nav list */
+.nav-container ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    gap: 32px;
+}
+
+/* Hide nav links on smaller screens */
+.nav-container ul li {
+    display: none;
+}
+
+/* Responsive design for larger screens */
+@media (min-width: 768px) {
+    .nav-container ul li {
+        display: block;
+    }
+}
+
+/* NavLink styling */
+.nav-container ul li a {
+    color: #4b5563;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+/* Hover effect for NavLinks */
+.nav-container ul li a:hover {
+    color: #0084FA;
+}
+
+/* Active link styling for NavLink */
+.nav-container ul li a.active {
+    color: #0867bb;
+    font-weight: 600;
+}
